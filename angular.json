@@ -24,13 +24,16 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/theme/css/bootstrap.min.css",
-              "src/theme/css/style.css",
-              "src/theme/css/menu.css",
-              "src/theme/css/vendors.uncompressed.css",
-              "src/theme/css/icon_fonts/css/all_icons_min.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/menu.css",
+              "src/assets/css/vendors.css",
+              "src/assets/css/icon_fonts/css/all_icons_min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-2.2.4.min.js",
+              "src/assets/js/common_scripts.min.js"
+            ]
           },
           "configurations": {
             "production": {
